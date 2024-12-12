@@ -1,0 +1,13 @@
+<div class="field">
+    <label for="hobby" class="label"><span>Hobby</span></label>
+    <div class="control">
+        <input type="text" id="hobby" name="hobby" value="<?= $block->escapeHtml($block->getCustomer()->getHobby()) ?>" />
+    </div>
+</div>
+
+<div class="field">
+    <label for="anniversary" class="label"><span>Anniversary</span></label>
+    <div class="control">
+        <input type="date" id="anniversary" name="anniversary" value="<?= $block->escapeHtml($block->getCustomer()->getAnniversary()) ?>" />
+    </div>
+</div>

@@ -1,0 +1,50 @@
+# Ignore Magento generated directories and files
+/pub/static
+/pub/media
+/var/*
+/generated/*
+/app/etc/env.php
+/app/etc/config.php
+
+# Composer dependencies and logs
+/vendor/
+/composer.lock
+
+# Node and npm
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# IDE-specific files
+/.idea/
+/*.iml
+/.vscode
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Magento-specific logs
+*.log
+*.csv
+
+# Environment-specific files
+/.env
+/.docker
+/.dockerignore
+
+# Backup and other unnecessary files
+*.zip
+*.tar.gz
+*.bak
+*.backup
+
+# PHPUnit files
+/phpunit.xml
+/phpunit.xml.dist
+
+# Local and temporary files
+/.mage-cache
+/.session
+/.temp
